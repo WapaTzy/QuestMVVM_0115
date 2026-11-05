@@ -49,7 +49,7 @@ dependencies {
     testImplementation(libs.junit)
 
     implementation(libs.lifecycle.viewmodel.compose)
-    implementation(libs.navigation.compose)
+    implementation(libs.lifecycle.runtime.compose)
 
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
